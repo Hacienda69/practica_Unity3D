@@ -1,6 +1,6 @@
 ﻿body {
-    background-color: #000;
-    color: #ccc; /* Light grey color for normal text */
+    background-color: #85DCB;
+    color: #41B3A3; /* Updated text color */
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
@@ -32,13 +32,29 @@ ul {
     padding: 0;
 }
 
+#intro {
+    background-color: #85DCB;
+    color: #41B3A3;
+}
+
+    #intro a {
+        color: #E27D60; /* Updated link color */
+    }
+
+    #intro div {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: justify;
+    }
+
 p {
-    color: #ccc; /* Light grey color for normal text */
+    color: #ccc;
     margin-bottom: 10px;
 }
 
 a {
-    color: #3498db; /* Normal link blue color */
+    color: #3498db;
     text-decoration: none;
 }
 
