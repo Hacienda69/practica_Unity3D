@@ -1,6 +1,6 @@
 ﻿body {
     background-color: #000;
-    color: #00ff00;
+    color: #ccc; /* Light grey color for normal text */
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
@@ -21,15 +21,10 @@ h1 {
     font-size: 2em;
 }
 
-h2 {
+h2, h3 {
     color: #00ff00;
     border-bottom: 1px solid #00ff00;
     padding-bottom: 5px;
-}
-
-h3 {
-    color: #00ff00;
-    margin-top: 20px;
 }
 
 ul {
@@ -37,12 +32,13 @@ ul {
     padding: 0;
 }
 
-li {
-    margin-bottom: 5px;
+p {
+    color: #ccc; /* Light grey color for normal text */
+    margin-bottom: 10px;
 }
 
 a {
-    color: #00ff00;
+    color: #3498db; /* Normal link blue color */
     text-decoration: none;
 }
 
