@@ -1,7 +1,7 @@
 ﻿body {
-    background-color: #1A1A1D; /* Black background on the sides */
-    color: #950740; /* Text color */
-    font-family: 'Courier New', Courier, monospace;
+    background-color: #950740; /* Black background on the sides */
+    color: #000000; /* Text color */
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -18,13 +18,13 @@ header {
 }
 
 h1 {
-    color: #950740;
+    color: #000000;
     font-size: 2em;
 }
 
 h2, h3 {
-    color: #950740;
-    border-bottom: 1px solid #950740;
+    color: #000000;
+    border-bottom: 1px solid #000000;
     padding-bottom: 5px;
 }
 
@@ -35,7 +35,7 @@ ul {
 
 #intro {
     background-color: #4E4E50; /* Background color where text is */
-    color: #950740; /* Text color */
+    color: #000000; /* Text color */
 }
 
     #intro a {
@@ -50,12 +50,12 @@ ul {
     }
 
 p {
-    color: #950740; /* Text color */
+    color: #000000; /* Text color */
     margin-bottom: 10px;
 }
 
 a {
-    color: #950740; /* Link color */
+    color: #000000; /* Link color */
     text-decoration: none;
 }
 
