@@ -1,17 +1,17 @@
-﻿styles.css
-
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #111;
-    color: #fff;
+﻿body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #222;
+    color: #ddd;
     margin: 0;
     padding: 0;
 }
 
+styles.css
+
 header {
     text-align: center;
     padding: 20px;
-    background-color: #222;
+    background-color: #333;
 }
 
 h1, h2, h3 {
@@ -20,15 +20,17 @@ h1, h2, h3 {
 
 p {
     line-height: 1.6;
+    font-size: 16px;
+    color: #ccc;
 }
 
 a {
     color: #00b3e6;
 }
 
-section {
-    padding: 30px;
-    margin-bottom: 40px;
+.about, .authors, .engine-description {
+    padding: 20px;
+    margin-bottom: 30px;
     background-color: #333;
     border-radius: 10px;
 }
@@ -38,11 +40,9 @@ ul {
     padding: 0;
 }
 
-/* Define more styles for different sections, links, etc. */
-
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 56.25%;
     padding-top: 30px;
     height: 0;
     overflow: hidden;
