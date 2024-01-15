@@ -33,6 +33,7 @@ h4 {
 }
 
 ul {
+    color: #ffffff;
     list-style-type: none;
     padding: 0;
 }
@@ -67,12 +68,19 @@ a {
         text-decoration: underline;
     }
 
+#video-section {
+    background-color: #000000; /* Background color for the video section */
+    color: #ffffff; /* Text color */
+}
+
 .video-container {
     width: 100%;
+    max-width: 800px; /* Adjust this value as needed */
+    margin: 0 auto;
     overflow: hidden;
 }
 
-.video-container video {
+    .video-container video {
         width: 100%;
         height: auto;
-}
+    }
