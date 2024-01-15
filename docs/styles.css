@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: #950740; /* Black background on the sides */
+    background-color: #000000; /* Black background on the sides */
     color: #000000; /* Text color */
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -10,7 +10,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #4E4E50; /* Background color where text is */
+    background-color: #000000; /* Background color where text is */
 }
 
 header {
@@ -18,13 +18,13 @@ header {
 }
 
 h1 {
-    color: #000000;
+    color: #C3073F;
     font-size: 2em;
 }
 
 h2, h3 {
-    color: #000000;
-    border-bottom: 1px solid #000000;
+    color: #C3073F;
+    border-bottom: 1px solid #C3073F;
     padding-bottom: 5px;
 }
 
@@ -38,7 +38,7 @@ ul {
     color: #000000; /* Text color */
 }
 
-    #intro a {
+    #intro a, #authors a, #third-party-libraries a {
         color: #C3073F; /* Link color */
     }
 
