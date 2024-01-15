@@ -16,7 +16,7 @@
         <section id="intro">
             <div>
                 <p>
-                    De la mano del aclamado estudio "Aprobé Motores", formado por los brillantes desarrolladores Marc Escandell y Daniel Mañas, en una sorprendente y extraordinaria colaboración (les forkeamos) con SheeeshEngine, otro motor excepcionalmente innovador creado por unos compañeros de clase, Oriol Martín (<a href="https://github.com/Urii98">@Urii98</a>: <a href="https://github.com/Urii98">https://github.com/Urii98</a>) y Xiao Shan Costajussà (<a href="https://github.com/xaitta">@xaitta</a>: <a href="https://github.com/xaitta">https://github.com/xaitta</a>), llega "Real Engine 5", un nuevo motor de videojuegos puntero en la pujante industria del entretenimiento virtual, esperamos que lo disfruten.
+                    De la mano del aclamado estudio "Aprobé Motores", formado por los brillantes desarrolladores Marc Escandell y Daniel Mañas, en una sorprendente y extraordinaria colaboración (les forkeamos) con SheeeshEngine, otro motor excepcionalmente innovador creado por unos compañeros de clase, Oriol Martín (<a href="https://github.com/Urii98">@Urii98</a>) y Xiao Shan Costajussà (<a href="https://github.com/xaitta">@xaitta</a>), llega "Real Engine 5", un nuevo motor de videojuegos puntero en la pujante industria del entretenimiento virtual, esperamos que lo disfruten.
                 </p>
                 <p>
                     Link del tenedor original: <a href="https://github.com/Urii98/SheeeshEngine">https://github.com/Urii98/SheeeshEngine</a>
@@ -25,7 +25,7 @@
                     Now in English:
                 </p>
                 <p>
-                    From the hand of the acclaimed studio "Aprobé Motores" ("I passed engines"), formed by the brilliant developers Marc Escandell and Daniel Mañas, in a surprising and extraordinary collaboration (we forked them) with SheeeshEngine, another exceptionally innovative engine created by some classmates, Oriol Martín (<a href="https://github.com/Urii98">@Urii98</a>: <a href="https://github.com/Urii98">https://github.com/Urii98</a>) and Xiao Shan Costajussà (<a href="https://github.com/xaitta">@xaitta</a>: <a href="https://github.com/xaitta">https://github.com/xaitta</a>), "Real Engine 5" arrives, a new cutting-edge video game engine in the booming virtual entertainment industry, we hope you enjoy it.
+                    From the hand of the acclaimed studio "Aprobé Motores" ("I passed engines"), formed by the brilliant developers Marc Escandell and Daniel Mañas, in a surprising and extraordinary collaboration (we forked them) with SheeeshEngine, another exceptionally innovative engine created by some classmates, Oriol Martín (<a href="https://github.com/Urii98">@Urii98</a>) and Xiao Shan Costajussà (<a href="https://github.com/xaitta">@xaitta</a>), "Real Engine 5" arrives, a new cutting-edge video game engine in the booming virtual entertainment industry, we hope you enjoy it.
                 </p>
                 <p>
                     Original fork link: <a href="https://github.com/Urii98/SheeeshEngine">https://github.com/Urii98/SheeeshEngine</a>
@@ -51,57 +51,48 @@
 
         <section id="features">
             <h3>Basic Features</h3>
-            <p>
-                - Drag and drop game objects and textures in the Hierarchy.
-                - Create game objects with Game Objects Menu
-                - Delete game objects by pressing Delete at Inspector
-                - Delete selected game object at Hierarchy by pressing Delete.
-                - Move Game Ojects in Hierarchy by drag and drop them.
-            </p>
+            <p>- Drag and drop game objects and textures in the Hierarchy.</p>
+            <p>- Create game objects with Game Objects Menu</p>
+            <p>- Delete game objects by pressing Delete at Inspector</p>
+            <p>- Delete selected game object at Hierarchy by pressing Delete.</p>
+            <p>- Move Game Ojects in Hierarchy by drag and drop them.</p>
         </section>
 
         <section id="controls">
             <h3>Controls</h3>
-            <p>
-                - While Right clicking:
-                - WASD: move forward, left, backward and right
-                - QE: move up and down
-                - Look around
-                - F: look at target
-                - Hold Alt:
-                - Mouse Hold Left to orbit the game object selected.
-                - Mouse wheel to zoom in and zoom out.
-                - Holding SHIFT duplicates movement speed.
-            </p>
+            <p>- While Right clicking:</p>
+            <p>     - WASD: move forward, left, backward and right</p>
+            <p>     - QE: move up and down</p>
+            <p>     - Look around</p>
+            <p>- F: look at target</p>
+            <p>- Hold Alt:</p>
+            <p>     - Mouse Hold Left to orbit the game object selected.</p>
+            <p>- Mouse wheel to zoom in and zoom out.</p>
+            <p>- Holding SHIFT duplicates movement speed.</p>
         </section>
 
         <section id="second-assignment-features">
             <h3>2nd Assignment Features</h3>
-            <p>
-                #### Misc.
-                - The ‘Street Environment’ scene is automatically loaded at the start.
+            <h4>Misc.</h4>
+            <p>- The ‘Street Environment’ scene is automatically loaded at the start.</p>
 
-                #### Game Objects
-                - The user is able to use the inspector to modify a GameObject:
-                - Hierarchy: delete, reparent, create empty and create children
-                - Transform: translate, rotate and scale Game Objects.
-                - Mesh: select or drop any imported mesh
-                - Texture: select or drop any imported texture
-                - Camera is a component with settings that can be modified.
+            <h4>Game Objects</h4>
+            <p>- The user is able to use the inspector to modify a GameObject:</p>
+            <p>     - Hierarchy: delete, reparent, create empty and create children</p>
+            <p>     - Transform: translate, rotate and scale Game Objects.</p>
+            <p>     - Mesh: select or drop any imported mesh</p>
+            <p>     - Texture: select or drop any imported texture</p>
+            <p>     - Camera is a component with settings that can be modified.</p>
+            <p>- GameObjects can be picked from the world using the mouse.</p>
+            <p>- All meshes use a bounding volume (AABB) and can be discarded using Frustum Culling. This process is visualized in the editor.</p>
 
-                - GameObjects can be picked from the world using the mouse.
+            <h4>Scenes</h4>
+            <p>- The user can Start / Pause / Stop the simulation and recover its original state.</p>
+            <p>- The editor has 2 windows one with the scene(editor view) and another captured from a gameobject with a camera component(main game camera), each one has its own framebuffer and the user can visualize both at the same time.</p>
 
-                - All meshes use a bounding volume (AABB) and can be discarded using Frustum Culling. This process is visualized in the editor.
-
-                #### Scenes
-                - The user can Start / Pause / Stop the simulation and recover its original state.
-
-                - The editor has 2 windows one with the scene(editor view) and another captured from a gameobject with a camera component(main game camera), each one has its own framebuffer and the user can visualize both at the same time.
-
-                #### Resource Management:
-                - The user can drop/import new files. Hierarchy window reacts properly
-                - Asset files can be deleted through the Hierarchy window
-            </p>
+            <h4>Resource Management</h4>
+            <p>- The user can drop/import new files. Hierarchy window reacts properly.</p>
+            <p>- Asset files can be deleted through the Hierarchy window.</p>      
         </section>
 
         <section id="third-assignment-features">
@@ -153,21 +144,21 @@
 
         <section id="license">
             <h2>License</h2>
+            <p>MIT License</p>
+            <p>Copyright (c) 2023 Hacienda69 & MrMonkey420</p>
             <p>
-                MIT License
-
-                Copyright (c) 2023 Hacienda69 & MrMonkey420
-
                 Permission is hereby granted, free of charge, to any person obtaining a copy
                 of this software and associated documentation files (the "Software"), to deal
                 in the Software without restriction, including without limitation the rights
                 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
                 copies of the Software, and to permit persons to whom the Software is
                 furnished to do so, subject to the following conditions:
-
+            </p>
+            <p>
                 The above copyright notice and this permission notice shall be included in all
                 copies or substantial portions of the Software.
-
+            </p>
+            <p>
                 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
                 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
                 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
