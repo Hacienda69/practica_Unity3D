@@ -34,7 +34,7 @@ ul {
 }
 
 #intro {
-    background-color: #4E4E50; /* Background color where text is */
+    background-color: #000000; /* Background color where text is */ /*#4E4E50*/
     color: #000000; /* Text color */
 }
 
@@ -50,12 +50,12 @@ ul {
     }
 
 p {
-    color: #000000; /* Text color */
+    color: #ffffff; /* Text color */
     margin-bottom: 10px;
 }
 
 a {
-    color: #000000; /* Link color */
+    color: #ffffff; /* Link color */
     text-decoration: none;
 }
 
